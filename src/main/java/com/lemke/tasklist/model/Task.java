@@ -82,4 +82,10 @@ public class Task {
   public void setEndDate(Date endDate) {
     this.endDate = endDate;
   }
+
+  @JsonGetter
+  public boolean checked() {
+    return status.equals(TaskStatus.FINISHED);
+  }
+
 }
