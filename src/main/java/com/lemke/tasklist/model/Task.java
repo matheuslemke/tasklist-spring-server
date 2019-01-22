@@ -1,5 +1,7 @@
 package com.lemke.tasklist.model;
 
+import com.fasterxml.jackson.annotation.JsonGetter;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
